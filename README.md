@@ -1,3 +1,8 @@
+Note: The author (Amanda Kornoushenko aka Lyberta) prepared a great proposal P2146, but [declared loss of interest](https://github.com/cplusplus/papers/issues/860) in the progress.
+Also [post on reddit](https://www.reddit.com/r/cpp/comments/fe72kp/modern_stdbyte_stream_io_for_c/) and [repository on githib](https://github.com/Lyberta/cpp-io-impl) were deleted. Fortunately [link to code archive](http://korno.net/cpp/P2146.tar.gz) has survived (not sure at which revision of proposal), so here just raw content of this archive. I think this project can be used as a base for a great binary io library that can work on top of c++17 or even less standard.
+
+Note: IANAL, but the text of BSL says that "Permission is hereby granted... to use, reproduce, display, distribute, execute, and transmit the Software, and to prepare derivative works of the Software" so I'm sure that according to the license I'm allowed to publish this copy of the code even if original work is removed by the author.
+
 # Implementation of P2146 - Modern std::byte stream IO for C++
 
 Reference implementation of [P2146 - Modern std::byte stream IO for C++](https://wg21.link/p2146).
